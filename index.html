@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo_List</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ToDo List</h1>
+        </header>
+    
+        <form id="formulario">
+            <h2>Nova Tarefa ></h2>
+            <input id="aTarefa" type="text" placeholder="    .. nova tarefa" title="Basta inserir a tarefa" required />
+            <button id="adicionar-tarefa" type="submit">Adicionar Tarefa</button>
+        </form>
+        <table>
+            <tbody>
+                <tr>
+                    <th>
+                        <ul>
+                            <li>
+                                ---
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </tbody>    
+        </table>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+
+</body>
+</html>
