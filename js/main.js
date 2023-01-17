@@ -3,9 +3,10 @@ $(document).ready(function () {
 
 $('form').on('submit', function (e){
     e.preventDefault();
-
-    const inputaddTarefa = $('#aTarefa').val();
+    const adicionarTarefa = $('#aTarefa').val();
     const novaTarefa = $('<li></li>');
-    //.appendTo()
-
+    $(adicionarTarefa).appendTo(novaTarefa);
+    $(novaTarefa).appendTo('ul');
+    
 })
+
