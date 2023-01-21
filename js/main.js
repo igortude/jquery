@@ -7,9 +7,9 @@ $('form').on('submit', function (e){
         const novaTarefa = $('<li></li>');
         $(`<li>${adicionarTarefa}</li>`).appendTo(novaTarefa);
         $(novaTarefa).appendTo('ul');
-        $(adicionarTarefa) = ' ';
-})
+        $('#aTarefa').val("");
 
-$('.teste').click(function (){
-    $('li').css("text-decoration", "line-through");
+        $('li').on('click', function(){
+            $(this).addClass("riscado");
+        })
 })
