@@ -12,5 +12,4 @@ $('form').on('submit', function (e){
         $('li').on('click', function(){
             $(this).addClass("riscado");
         })
-        
 })
